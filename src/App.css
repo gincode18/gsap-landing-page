@@ -1,20 +1,55 @@
-
 #root {
-  height: 100vh; /* Set the height of the parent div to the full viewport height */
+  height: 100vh;
+  /* Set the height of the parent div to the full viewport height */
   display: flex;
   justify-content: center;
   align-items: center;
- 
+
 }
-.center{
+h1{
+  margin: 0%;
+}
+
+.center {
   width: 80%;
   height: 80%;
-  background-color: aqua;
-  position: relative;
+  position: absolute;
+  left: 10%;
+  transform: translate(0%,-2%);
+   
 }
-.image-container{
-  background-color: brown;
-  width: 100%;
+
+.image-container {
+  width: 0%;
   height: 100%;
   position: absolute;
+  overflow: hidden;
 }
+
+img {
+  height: 100%; 
+  object-fit:cover;
+}
+.text{
+  width: 500px;
+  height: 110px;
+  overflow: hidden;
+  position: absolute ;
+  bottom: 20%;
+  left: -8%;
+  z-index: 9;
+}
+.text h1{
+  top: 110px;
+  font-size: 6vw;
+  position: absolute;
+}
+/* #three{
+  width: 0%;
+}
+#two{
+  width: 0%;
+}
+#one{
+  width: 10%;
+} */
