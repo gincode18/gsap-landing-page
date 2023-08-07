@@ -6,10 +6,15 @@ function App() {
 
 
   return (
-    <>
-     <h1>hoola</h1>
+ 
+     <div className='center'>
+     <div className='image-container'></div>
+     <div className='image-container'></div>
+     <div className='image-container'></div>
+
+     </div>
      
-    </>
+   
   )
 }
 
